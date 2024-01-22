@@ -14,7 +14,7 @@ def get_gemini_response(input,image_data,user_promt):
     response = model.generate_content([input,image_data[0],user_promt])
     return response.text
 
-def input_image_details(upload-file):
+def input_image_details(upload_file):
     if uploaded_file is not None:
         bytes_data=uploaded_file.getvalue()
         image_parts = [{
