@@ -36,7 +36,7 @@ if uploaded_file is not None:
 
 sub = st.button('tell me about the invoice')
 
-input_promt = """you are expert in understanding invoices.
+input_prompt = """you are expert in understanding invoices.
 we will upload an image as a invoice and you will have to answer any
 questions based on the uploded invoice image."""
 
